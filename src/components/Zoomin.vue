@@ -1,38 +1,12 @@
 <script>
-import { defineComponent } from 'vue'
 
-export default defineComponent({
-  name: 'Zoomin',
-  props: {
-    src: {
-      type: String,
-      required: true
-    },
-    alt: {
-      type: String,
-      required: true
-    },
-    width: {
-      type: String,
-      required: true
-    },
-    height: {
-      type: String,
-      required: true
-    },
-    class: {
-      type: String,
-      required: false
-    }
-  }
-})
 
 </script>
 
 <template>
   <div id="card">
     <div class = "container">
-        <img src = "https://picsum.photos/200/300" alt = "no image">
+        <img src="../image/me.jpg" alt = "no image">
     </div>
     <div id = "content">
         <H3>Hello</H3>
@@ -44,6 +18,15 @@ export default defineComponent({
 </template>
 
 <style scoped>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Noto Sans TC', sans-serif;
+}
 #card {
   width: 95%;
   height: 100%;
@@ -62,8 +45,10 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 15px;
   animation:text 5s forwards ease-in-out;
 }
+
 .container {
   filter: drop-shadow(10px 10px 10px rgba(0,0,0 / 0.5));
   width: 60%;
@@ -77,11 +62,16 @@ img {
 }
 #btn {
   background-color: orange;
-  color: white;
+  color: black;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
   cursor: pointer;
+}
+#btn:hover {
+  color: white ;
+  background-color: darkorange;
+  border: 1px solid #000;
 }
 @keyframes clip-path {
     0% {

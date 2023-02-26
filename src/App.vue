@@ -1,7 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import FlexPicture from './components/FlexPicture.vue';
 import Zoomin from './components/Zoomin.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 <template>
@@ -9,7 +10,8 @@ import Zoomin from './components/Zoomin.vue';
 
     <Zoomin/>
     <FlexPicture />
-    <HelloWorld msg="Vite + Vue3" />
+    <Contact />
+    <!-- <HelloWorld msg="Vite + Vue3" /> -->
   </div>
 </template>
 

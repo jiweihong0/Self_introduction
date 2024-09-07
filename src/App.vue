@@ -3,6 +3,7 @@
 import FlexPicture from './components/FlexPicture.vue';
 import Zoomin from './components/Zoomin.vue';
 import Contact from './components/Contact.vue';
+import Resume from './components/Resume.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Contact from './components/Contact.vue';
 
     <Zoomin/>
     <FlexPicture />
+    <Resume />
     <Contact />
     <!-- <HelloWorld msg="Vite + Vue3" /> -->
   </div>

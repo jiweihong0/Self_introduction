@@ -9,10 +9,9 @@
         <img src="../image/me.jpg" alt = "no image">
     </div>
     <div id = "content">
-        <H3>Hello</H3>
-        <p>My name is Wayne ji</p>
-        <p>I am a frontend developer</p>
-        <p id = "btn">contact me</p>
+        <H3>歡迎來到我的網頁</H3>
+        <h2>=>紀威宏<=</h2>
+        <p id = "btn">聯繫我</p>
     </div>
    </div>
 </template>

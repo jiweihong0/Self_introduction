@@ -17,6 +17,7 @@
   overflow: hidden;
   justify-content: center;    
   margin: auto;
+  animation: clip-path 5s forwards ease-in-out;
 }
 img {
     max-height: 300px;
@@ -27,6 +28,7 @@ img {
     background-position: center;
     opacity: 0.4;
     transition: 0.6s ease-in-out;
+    animation: clip-path 5s forwards ease-in-out;
 }
 img:hover {
     opacity: 1;

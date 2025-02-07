@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 exports.handler = async () => {
   try {
     const response = await fetch(
-      'https://api.cloudflare.com/client/v4/zones/YOUR_ZONE_ID/analytics/dashboard',
+      'https://api.cloudflare.com/client/v4/zones/67055aa3c502d36f673b8a15b3ffd6fa/analytics/dashboard',
       {
         method: 'GET',
         headers: {

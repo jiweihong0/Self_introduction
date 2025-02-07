@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "data-uri-to-buffer": "^6.0.2",
     "node-fetch": "^3.3.2",
     "vue": "^3.2.45"
   },

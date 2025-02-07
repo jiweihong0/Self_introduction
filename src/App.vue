@@ -14,7 +14,7 @@ import Counts from './components/Counts.vue';
     <FlexPicture />
     <Resume />
     <Contact />
-    <Counts />
+    <!-- <Counts /> -->
     <!-- <HelloWorld msg="Vite + Vue3" /> -->
   </div>
 </template>

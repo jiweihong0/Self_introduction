@@ -4,6 +4,7 @@ import FlexPicture from './components/FlexPicture.vue';
 import Zoomin from './components/Zoomin.vue';
 import Contact from './components/Contact.vue';
 import Resume from './components/Resume.vue';
+import Counts from './components/Counts.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Resume from './components/Resume.vue';
     <FlexPicture />
     <Resume />
     <Contact />
+    <Counts />
     <!-- <HelloWorld msg="Vite + Vue3" /> -->
   </div>
 </template>

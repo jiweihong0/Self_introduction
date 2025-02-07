@@ -7,7 +7,7 @@ exports.handler = async () => {
       {
         method: 'GET',
         headers: {
-          Authorization: 'Bearer e47b50b9c28a4cb082b4236b4bc11440',
+          Authorization: 'Bearer 3510236cf3480e78a5dbbc35f2bb78e35c26a',
           'Content-Type': 'application/json',
         },
       }
